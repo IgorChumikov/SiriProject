@@ -15,7 +15,36 @@
 		AC5E2B232AF10D800077F4F4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC5E2B212AF10D800077F4F4 /* LaunchScreen.storyboard */; };
 		AC5E2B2B2AF10DB30077F4F4 /* Trivia.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC5E2B2A2AF10DB30077F4F4 /* Trivia.swift */; };
 		AC5E2B2D2AF113950077F4F4 /* Intents.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = AC5E2B2C2AF113950077F4F4 /* Intents.intentdefinition */; };
+		AC5E2B352AF115E90077F4F4 /* Intents.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC5E2B342AF115E90077F4F4 /* Intents.framework */; };
+		AC5E2B382AF115E90077F4F4 /* IntentHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC5E2B372AF115E90077F4F4 /* IntentHandler.swift */; };
+		AC5E2B3C2AF115E90077F4F4 /* TriviaIntents.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = AC5E2B322AF115E90077F4F4 /* TriviaIntents.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		AC5E2B412AF116790077F4F4 /* Intents.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = AC5E2B2C2AF113950077F4F4 /* Intents.intentdefinition */; };
+		AC5E2B422AF120BA0077F4F4 /* Trivia.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC5E2B2A2AF10DB30077F4F4 /* Trivia.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AC5E2B3A2AF115E90077F4F4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AC5E2B0B2AF10D7F0077F4F4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AC5E2B312AF115E90077F4F4;
+			remoteInfo = TriviaIntents;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		AC5E2B402AF115E90077F4F4 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				AC5E2B3C2AF115E90077F4F4 /* TriviaIntents.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		AC5E2B132AF10D7F0077F4F4 /* Number Trivia YouTube.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Number Trivia YouTube.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -28,6 +57,10 @@
 		AC5E2B242AF10D800077F4F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AC5E2B2A2AF10DB30077F4F4 /* Trivia.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Trivia.swift; sourceTree = "<group>"; };
 		AC5E2B2C2AF113950077F4F4 /* Intents.intentdefinition */ = {isa = PBXFileReference; lastKnownFileType = file.intentdefinition; path = Intents.intentdefinition; sourceTree = "<group>"; };
+		AC5E2B322AF115E90077F4F4 /* TriviaIntents.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = TriviaIntents.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC5E2B342AF115E90077F4F4 /* Intents.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Intents.framework; path = System/Library/Frameworks/Intents.framework; sourceTree = SDKROOT; };
+		AC5E2B372AF115E90077F4F4 /* IntentHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntentHandler.swift; sourceTree = "<group>"; };
+		AC5E2B392AF115E90077F4F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +71,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		AC5E2B2F2AF115E90077F4F4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC5E2B352AF115E90077F4F4 /* Intents.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -45,6 +86,8 @@
 			isa = PBXGroup;
 			children = (
 				AC5E2B152AF10D7F0077F4F4 /* Number Trivia YouTube */,
+				AC5E2B362AF115E90077F4F4 /* TriviaIntents */,
+				AC5E2B332AF115E90077F4F4 /* Frameworks */,
 				AC5E2B142AF10D7F0077F4F4 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -53,6 +96,7 @@
 			isa = PBXGroup;
 			children = (
 				AC5E2B132AF10D7F0077F4F4 /* Number Trivia YouTube.app */,
+				AC5E2B322AF115E90077F4F4 /* TriviaIntents.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -73,6 +117,23 @@
 			path = "Number Trivia YouTube";
 			sourceTree = "<group>";
 		};
+		AC5E2B332AF115E90077F4F4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AC5E2B342AF115E90077F4F4 /* Intents.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AC5E2B362AF115E90077F4F4 /* TriviaIntents */ = {
+			isa = PBXGroup;
+			children = (
+				AC5E2B372AF115E90077F4F4 /* IntentHandler.swift */,
+				AC5E2B392AF115E90077F4F4 /* Info.plist */,
+			);
+			path = TriviaIntents;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -83,15 +144,34 @@
 				AC5E2B0F2AF10D7F0077F4F4 /* Sources */,
 				AC5E2B102AF10D7F0077F4F4 /* Frameworks */,
 				AC5E2B112AF10D7F0077F4F4 /* Resources */,
+				AC5E2B402AF115E90077F4F4 /* Embed Foundation Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				AC5E2B3B2AF115E90077F4F4 /* PBXTargetDependency */,
 			);
 			name = "Number Trivia YouTube";
 			productName = "Number Trivia YouTube";
 			productReference = AC5E2B132AF10D7F0077F4F4 /* Number Trivia YouTube.app */;
 			productType = "com.apple.product-type.application";
+		};
+		AC5E2B312AF115E90077F4F4 /* TriviaIntents */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC5E2B3D2AF115E90077F4F4 /* Build configuration list for PBXNativeTarget "TriviaIntents" */;
+			buildPhases = (
+				AC5E2B2E2AF115E90077F4F4 /* Sources */,
+				AC5E2B2F2AF115E90077F4F4 /* Frameworks */,
+				AC5E2B302AF115E90077F4F4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TriviaIntents;
+			productName = TriviaIntents;
+			productReference = AC5E2B322AF115E90077F4F4 /* TriviaIntents.appex */;
+			productType = "com.apple.product-type.app-extension";
 		};
 /* End PBXNativeTarget section */
 
@@ -104,6 +184,9 @@
 				LastUpgradeCheck = 1500;
 				TargetAttributes = {
 					AC5E2B122AF10D7F0077F4F4 = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+					AC5E2B312AF115E90077F4F4 = {
 						CreatedOnToolsVersion = 15.0.1;
 					};
 				};
@@ -122,6 +205,7 @@
 			projectRoot = "";
 			targets = (
 				AC5E2B122AF10D7F0077F4F4 /* Number Trivia YouTube */,
+				AC5E2B312AF115E90077F4F4 /* TriviaIntents */,
 			);
 		};
 /* End PBXProject section */
@@ -134,6 +218,13 @@
 				AC5E2B232AF10D800077F4F4 /* LaunchScreen.storyboard in Resources */,
 				AC5E2B202AF10D800077F4F4 /* Assets.xcassets in Resources */,
 				AC5E2B1E2AF10D7F0077F4F4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC5E2B302AF115E90077F4F4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -152,7 +243,25 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		AC5E2B2E2AF115E90077F4F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC5E2B412AF116790077F4F4 /* Intents.intentdefinition in Sources */,
+				AC5E2B422AF120BA0077F4F4 /* Trivia.swift in Sources */,
+				AC5E2B382AF115E90077F4F4 /* IntentHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AC5E2B3B2AF115E90077F4F4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AC5E2B312AF115E90077F4F4 /* TriviaIntents */;
+			targetProxy = AC5E2B3A2AF115E90077F4F4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		AC5E2B1C2AF10D7F0077F4F4 /* Main.storyboard */ = {
@@ -296,6 +405,7 @@
 		AC5E2B282AF10D800077F4F4 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
@@ -324,6 +434,7 @@
 		AC5E2B292AF10D800077F4F4 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
@@ -349,6 +460,56 @@
 			};
 			name = Release;
 		};
+		AC5E2B3E2AF115E90077F4F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = T4VS95R2ET;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TriviaIntents/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = TriviaIntents;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ForTests.Number-Trivia-YouTube.TriviaIntents";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AC5E2B3F2AF115E90077F4F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = T4VS95R2ET;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TriviaIntents/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = TriviaIntents;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ForTests.Number-Trivia-YouTube.TriviaIntents";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -366,6 +527,15 @@
 			buildConfigurations = (
 				AC5E2B282AF10D800077F4F4 /* Debug */,
 				AC5E2B292AF10D800077F4F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC5E2B3D2AF115E90077F4F4 /* Build configuration list for PBXNativeTarget "TriviaIntents" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC5E2B3E2AF115E90077F4F4 /* Debug */,
+				AC5E2B3F2AF115E90077F4F4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
