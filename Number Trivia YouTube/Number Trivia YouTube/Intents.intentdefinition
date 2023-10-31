@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>INEnums</key>
+	<array/>
+	<key>INIntentDefinitionModelVersion</key>
+	<string>1.2</string>
+	<key>INIntentDefinitionNamespace</key>
+	<string>NxzAqI</string>
+	<key>INIntentDefinitionSystemVersion</key>
+	<string>23A344</string>
+	<key>INIntentDefinitionToolsBuildVersion</key>
+	<string>15A507</string>
+	<key>INIntentDefinitionToolsVersion</key>
+	<string>15.0.1</string>
+	<key>INIntents</key>
+	<array>
+		<dict>
+			<key>INIntentCategory</key>
+			<string>information</string>
+			<key>INIntentConfigurable</key>
+			<true/>
+			<key>INIntentDescription</key>
+			<string>Random Trivia from Mumbers Api</string>
+			<key>INIntentDescriptionID</key>
+			<string>UaJTAu</string>
+			<key>INIntentLastParameterTag</key>
+			<integer>1</integer>
+			<key>INIntentManagedParameterCombinations</key>
+			<dict>
+				<key></key>
+				<dict>
+					<key>INIntentParameterCombinationSupportsBackgroundExecution</key>
+					<true/>
+					<key>INIntentParameterCombinationUpdatesLinked</key>
+					<true/>
+				</dict>
+			</dict>
+			<key>INIntentName</key>
+			<string>GetRandomTrivia</string>
+			<key>INIntentParameterCombinations</key>
+			<dict>
+				<key></key>
+				<dict>
+					<key>INIntentParameterCombinationIsLinked</key>
+					<true/>
+					<key>INIntentParameterCombinationSupportsBackgroundExecution</key>
+					<true/>
+				</dict>
+			</dict>
+			<key>INIntentResponse</key>
+			<dict>
+				<key>INIntentResponseCodes</key>
+				<array>
+					<dict>
+						<key>INIntentResponseCodeConciseFormatString</key>
+						<string>2 Вот вам факт ${trivia}</string>
+						<key>INIntentResponseCodeConciseFormatStringID</key>
+						<string>Ib7Vyq</string>
+						<key>INIntentResponseCodeFormatString</key>
+						<string>1 Вот вам факт ${trivia}</string>
+						<key>INIntentResponseCodeFormatStringID</key>
+						<string>X9MNDq</string>
+						<key>INIntentResponseCodeName</key>
+						<string>success</string>
+						<key>INIntentResponseCodeSuccess</key>
+						<true/>
+					</dict>
+					<dict>
+						<key>INIntentResponseCodeConciseFormatString</key>
+						<string>2 Извини я не смог найти номер в API</string>
+						<key>INIntentResponseCodeConciseFormatStringID</key>
+						<string>uGZe7c</string>
+						<key>INIntentResponseCodeFormatString</key>
+						<string>1 Извини я не смог найти номер в API</string>
+						<key>INIntentResponseCodeFormatStringID</key>
+						<string>fGl03H</string>
+						<key>INIntentResponseCodeName</key>
+						<string>failure</string>
+					</dict>
+				</array>
+				<key>INIntentResponseLastParameterTag</key>
+				<integer>1</integer>
+				<key>INIntentResponseParameters</key>
+				<array>
+					<dict>
+						<key>INIntentResponseParameterDisplayName</key>
+						<string>Trivia</string>
+						<key>INIntentResponseParameterDisplayNameID</key>
+						<string>bySj25</string>
+						<key>INIntentResponseParameterDisplayPriority</key>
+						<integer>1</integer>
+						<key>INIntentResponseParameterName</key>
+						<string>trivia</string>
+						<key>INIntentResponseParameterTag</key>
+						<integer>1</integer>
+						<key>INIntentResponseParameterType</key>
+						<string>String</string>
+					</dict>
+				</array>
+			</dict>
+			<key>INIntentTitle</key>
+			<string>Get Random Trivia</string>
+			<key>INIntentTitleID</key>
+			<string>udTDcj</string>
+			<key>INIntentType</key>
+			<string>Custom</string>
+			<key>INIntentVerb</key>
+			<string>View</string>
+		</dict>
+	</array>
+	<key>INTypes</key>
+	<array/>
+</dict>
+</plist>

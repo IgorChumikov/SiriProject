@@ -14,6 +14,7 @@
 		AC5E2B202AF10D800077F4F4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC5E2B1F2AF10D800077F4F4 /* Assets.xcassets */; };
 		AC5E2B232AF10D800077F4F4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC5E2B212AF10D800077F4F4 /* LaunchScreen.storyboard */; };
 		AC5E2B2B2AF10DB30077F4F4 /* Trivia.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC5E2B2A2AF10DB30077F4F4 /* Trivia.swift */; };
+		AC5E2B2D2AF113950077F4F4 /* Intents.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = AC5E2B2C2AF113950077F4F4 /* Intents.intentdefinition */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		AC5E2B222AF10D800077F4F4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AC5E2B242AF10D800077F4F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AC5E2B2A2AF10DB30077F4F4 /* Trivia.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Trivia.swift; sourceTree = "<group>"; };
+		AC5E2B2C2AF113950077F4F4 /* Intents.intentdefinition */ = {isa = PBXFileReference; lastKnownFileType = file.intentdefinition; path = Intents.intentdefinition; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +68,7 @@
 				AC5E2B212AF10D800077F4F4 /* LaunchScreen.storyboard */,
 				AC5E2B242AF10D800077F4F4 /* Info.plist */,
 				AC5E2B2A2AF10DB30077F4F4 /* Trivia.swift */,
+				AC5E2B2C2AF113950077F4F4 /* Intents.intentdefinition */,
 			);
 			path = "Number Trivia YouTube";
 			sourceTree = "<group>";
@@ -144,6 +147,7 @@
 				AC5E2B1B2AF10D7F0077F4F4 /* ViewController.swift in Sources */,
 				AC5E2B172AF10D7F0077F4F4 /* AppDelegate.swift in Sources */,
 				AC5E2B2B2AF10DB30077F4F4 /* Trivia.swift in Sources */,
+				AC5E2B2D2AF113950077F4F4 /* Intents.intentdefinition in Sources */,
 				AC5E2B192AF10D7F0077F4F4 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

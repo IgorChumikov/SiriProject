@@ -13,8 +13,10 @@
 			</dict>
 		</dict>
 	</dict>
-	<key>CFBundleIdentifier</key>
-	<string></string>
+	<key>NSUserActivityTypes</key>
+	<array>
+		<string>GetRandomTriviaIntent</string>
+	</array>
 	<key>UIApplicationSceneManifest</key>
 	<dict>
 		<key>UIApplicationSupportsMultipleScenes</key>
