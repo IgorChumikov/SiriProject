@@ -9,9 +9,12 @@ import UIKit
 
 class ViewController: UIViewController {
 
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        // Do any additional setup after loading the view.
+    @IBAction func getTrivia() {
+        Trivia().getTrivia { trivia in
+            let alert = UIAlertController(title: "Random Trivia", message: trivia, preferredStyle: .alert)
+            alert.addAction(UIAlertAction(title: "OK", style: .default, handler: nil))
+            self.present(alert, animated: true)
+        }
     }
 
 
