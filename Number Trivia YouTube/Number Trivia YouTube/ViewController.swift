@@ -11,9 +11,11 @@ class ViewController: UIViewController {
 
     @IBAction func getTrivia() {
         Trivia().getTrivia { trivia in
-            let alert = UIAlertController(title: "Random Trivia", message: trivia, preferredStyle: .alert)
-            alert.addAction(UIAlertAction(title: "OK", style: .default, handler: nil))
-            self.present(alert, animated: true)
+            DispatchQueue.main.async {
+                let alert = UIAlertController(title: "Random Trivia", message: trivia, preferredStyle: .alert)
+                alert.addAction(UIAlertAction(title: "OK", style: .default, handler: nil))
+                self.present(alert, animated: true)
+            }
         }
     }
 

@@ -10,7 +10,7 @@ import Foundation
 class Trivia {
     
     func getTrivia(completionHandler: @escaping (String) -> Void) {
-        // Создаем URL для запроса
+        // Создаем URL для запроса с использованием HTTPS
         if let triviaURL = URL(string: "http://numbersapi.com/random/trivia") {
             // Создаем сессию URLSession
             let session = URLSession.shared
@@ -32,4 +32,5 @@ class Trivia {
         }
     }
 }
+
 
