@@ -7,22 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		AC31EC422AEBE9F300FFF8AF /* SiriProjectApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC31EC412AEBE9F300FFF8AF /* SiriProjectApp.swift */; };
-		AC31EC442AEBE9F300FFF8AF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC31EC432AEBE9F300FFF8AF /* ContentView.swift */; };
-		AC31EC462AEBE9F500FFF8AF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC31EC452AEBE9F500FFF8AF /* Assets.xcassets */; };
-		AC31EC492AEBE9F500FFF8AF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC31EC482AEBE9F500FFF8AF /* Preview Assets.xcassets */; };
+		AC5E2B172AF10D7F0077F4F4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC5E2B162AF10D7F0077F4F4 /* AppDelegate.swift */; };
+		AC5E2B192AF10D7F0077F4F4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC5E2B182AF10D7F0077F4F4 /* SceneDelegate.swift */; };
+		AC5E2B1B2AF10D7F0077F4F4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC5E2B1A2AF10D7F0077F4F4 /* ViewController.swift */; };
+		AC5E2B1E2AF10D7F0077F4F4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC5E2B1C2AF10D7F0077F4F4 /* Main.storyboard */; };
+		AC5E2B202AF10D800077F4F4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC5E2B1F2AF10D800077F4F4 /* Assets.xcassets */; };
+		AC5E2B232AF10D800077F4F4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC5E2B212AF10D800077F4F4 /* LaunchScreen.storyboard */; };
+		AC5E2B2B2AF10DB30077F4F4 /* Trivia.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC5E2B2A2AF10DB30077F4F4 /* Trivia.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		AC31EC3E2AEBE9F300FFF8AF /* SiriProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SiriProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		AC31EC412AEBE9F300FFF8AF /* SiriProjectApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SiriProjectApp.swift; sourceTree = "<group>"; };
-		AC31EC432AEBE9F300FFF8AF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		AC31EC452AEBE9F500FFF8AF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		AC31EC482AEBE9F500FFF8AF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		AC5E2B132AF10D7F0077F4F4 /* Number Trivia YouTube.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Number Trivia YouTube.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC5E2B162AF10D7F0077F4F4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AC5E2B182AF10D7F0077F4F4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		AC5E2B1A2AF10D7F0077F4F4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AC5E2B1D2AF10D7F0077F4F4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AC5E2B1F2AF10D800077F4F4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AC5E2B222AF10D800077F4F4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AC5E2B242AF10D800077F4F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC5E2B2A2AF10DB30077F4F4 /* Trivia.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Trivia.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		AC31EC3B2AEBE9F300FFF8AF /* Frameworks */ = {
+		AC5E2B102AF10D7F0077F4F4 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -32,77 +39,73 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		AC31EC352AEBE9F300FFF8AF = {
+		AC5E2B0A2AF10D7F0077F4F4 = {
 			isa = PBXGroup;
 			children = (
-				AC31EC402AEBE9F300FFF8AF /* SiriProject */,
-				AC31EC3F2AEBE9F300FFF8AF /* Products */,
+				AC5E2B152AF10D7F0077F4F4 /* Number Trivia YouTube */,
+				AC5E2B142AF10D7F0077F4F4 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		AC31EC3F2AEBE9F300FFF8AF /* Products */ = {
+		AC5E2B142AF10D7F0077F4F4 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				AC31EC3E2AEBE9F300FFF8AF /* SiriProject.app */,
+				AC5E2B132AF10D7F0077F4F4 /* Number Trivia YouTube.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		AC31EC402AEBE9F300FFF8AF /* SiriProject */ = {
+		AC5E2B152AF10D7F0077F4F4 /* Number Trivia YouTube */ = {
 			isa = PBXGroup;
 			children = (
-				AC31EC412AEBE9F300FFF8AF /* SiriProjectApp.swift */,
-				AC31EC432AEBE9F300FFF8AF /* ContentView.swift */,
-				AC31EC452AEBE9F500FFF8AF /* Assets.xcassets */,
-				AC31EC472AEBE9F500FFF8AF /* Preview Content */,
+				AC5E2B162AF10D7F0077F4F4 /* AppDelegate.swift */,
+				AC5E2B182AF10D7F0077F4F4 /* SceneDelegate.swift */,
+				AC5E2B1A2AF10D7F0077F4F4 /* ViewController.swift */,
+				AC5E2B1C2AF10D7F0077F4F4 /* Main.storyboard */,
+				AC5E2B1F2AF10D800077F4F4 /* Assets.xcassets */,
+				AC5E2B212AF10D800077F4F4 /* LaunchScreen.storyboard */,
+				AC5E2B242AF10D800077F4F4 /* Info.plist */,
+				AC5E2B2A2AF10DB30077F4F4 /* Trivia.swift */,
 			);
-			path = SiriProject;
-			sourceTree = "<group>";
-		};
-		AC31EC472AEBE9F500FFF8AF /* Preview Content */ = {
-			isa = PBXGroup;
-			children = (
-				AC31EC482AEBE9F500FFF8AF /* Preview Assets.xcassets */,
-			);
-			path = "Preview Content";
+			path = "Number Trivia YouTube";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		AC31EC3D2AEBE9F300FFF8AF /* SiriProject */ = {
+		AC5E2B122AF10D7F0077F4F4 /* Number Trivia YouTube */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = AC31EC4C2AEBE9F500FFF8AF /* Build configuration list for PBXNativeTarget "SiriProject" */;
+			buildConfigurationList = AC5E2B272AF10D800077F4F4 /* Build configuration list for PBXNativeTarget "Number Trivia YouTube" */;
 			buildPhases = (
-				AC31EC3A2AEBE9F300FFF8AF /* Sources */,
-				AC31EC3B2AEBE9F300FFF8AF /* Frameworks */,
-				AC31EC3C2AEBE9F300FFF8AF /* Resources */,
+				AC5E2B0F2AF10D7F0077F4F4 /* Sources */,
+				AC5E2B102AF10D7F0077F4F4 /* Frameworks */,
+				AC5E2B112AF10D7F0077F4F4 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = SiriProject;
-			productName = SiriProject;
-			productReference = AC31EC3E2AEBE9F300FFF8AF /* SiriProject.app */;
+			name = "Number Trivia YouTube";
+			productName = "Number Trivia YouTube";
+			productReference = AC5E2B132AF10D7F0077F4F4 /* Number Trivia YouTube.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		AC31EC362AEBE9F300FFF8AF /* Project object */ = {
+		AC5E2B0B2AF10D7F0077F4F4 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1500;
 				LastUpgradeCheck = 1500;
 				TargetAttributes = {
-					AC31EC3D2AEBE9F300FFF8AF = {
+					AC5E2B122AF10D7F0077F4F4 = {
 						CreatedOnToolsVersion = 15.0.1;
 					};
 				};
 			};
-			buildConfigurationList = AC31EC392AEBE9F300FFF8AF /* Build configuration list for PBXProject "SiriProject" */;
+			buildConfigurationList = AC5E2B0E2AF10D7F0077F4F4 /* Build configuration list for PBXProject "Number Trivia YouTube" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -110,42 +113,64 @@
 				en,
 				Base,
 			);
-			mainGroup = AC31EC352AEBE9F300FFF8AF;
-			productRefGroup = AC31EC3F2AEBE9F300FFF8AF /* Products */;
+			mainGroup = AC5E2B0A2AF10D7F0077F4F4;
+			productRefGroup = AC5E2B142AF10D7F0077F4F4 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				AC31EC3D2AEBE9F300FFF8AF /* SiriProject */,
+				AC5E2B122AF10D7F0077F4F4 /* Number Trivia YouTube */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		AC31EC3C2AEBE9F300FFF8AF /* Resources */ = {
+		AC5E2B112AF10D7F0077F4F4 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AC31EC492AEBE9F500FFF8AF /* Preview Assets.xcassets in Resources */,
-				AC31EC462AEBE9F500FFF8AF /* Assets.xcassets in Resources */,
+				AC5E2B232AF10D800077F4F4 /* LaunchScreen.storyboard in Resources */,
+				AC5E2B202AF10D800077F4F4 /* Assets.xcassets in Resources */,
+				AC5E2B1E2AF10D7F0077F4F4 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		AC31EC3A2AEBE9F300FFF8AF /* Sources */ = {
+		AC5E2B0F2AF10D7F0077F4F4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AC31EC442AEBE9F300FFF8AF /* ContentView.swift in Sources */,
-				AC31EC422AEBE9F300FFF8AF /* SiriProjectApp.swift in Sources */,
+				AC5E2B1B2AF10D7F0077F4F4 /* ViewController.swift in Sources */,
+				AC5E2B172AF10D7F0077F4F4 /* AppDelegate.swift in Sources */,
+				AC5E2B2B2AF10DB30077F4F4 /* Trivia.swift in Sources */,
+				AC5E2B192AF10D7F0077F4F4 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXVariantGroup section */
+		AC5E2B1C2AF10D7F0077F4F4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AC5E2B1D2AF10D7F0077F4F4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AC5E2B212AF10D800077F4F4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AC5E2B222AF10D800077F4F4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
 /* Begin XCBuildConfiguration section */
-		AC31EC4A2AEBE9F500FFF8AF /* Debug */ = {
+		AC5E2B252AF10D800077F4F4 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -208,7 +233,7 @@
 			};
 			name = Debug;
 		};
-		AC31EC4B2AEBE9F500FFF8AF /* Release */ = {
+		AC5E2B262AF10D800077F4F4 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -264,20 +289,19 @@
 			};
 			name = Release;
 		};
-		AC31EC4D2AEBE9F500FFF8AF /* Debug */ = {
+		AC5E2B282AF10D800077F4F4 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"SiriProject/Preview Content\"";
 				DEVELOPMENT_TEAM = T4VS95R2ET;
-				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_FILE = "Number Trivia YouTube/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -285,7 +309,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.ForTests.SiriProject;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ForTests.Number-Trivia-YouTube";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -293,20 +317,19 @@
 			};
 			name = Debug;
 		};
-		AC31EC4E2AEBE9F500FFF8AF /* Release */ = {
+		AC5E2B292AF10D800077F4F4 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"SiriProject/Preview Content\"";
 				DEVELOPMENT_TEAM = T4VS95R2ET;
-				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_FILE = "Number Trivia YouTube/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -314,7 +337,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.ForTests.SiriProject;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ForTests.Number-Trivia-YouTube";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -325,25 +348,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		AC31EC392AEBE9F300FFF8AF /* Build configuration list for PBXProject "SiriProject" */ = {
+		AC5E2B0E2AF10D7F0077F4F4 /* Build configuration list for PBXProject "Number Trivia YouTube" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				AC31EC4A2AEBE9F500FFF8AF /* Debug */,
-				AC31EC4B2AEBE9F500FFF8AF /* Release */,
+				AC5E2B252AF10D800077F4F4 /* Debug */,
+				AC5E2B262AF10D800077F4F4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		AC31EC4C2AEBE9F500FFF8AF /* Build configuration list for PBXNativeTarget "SiriProject" */ = {
+		AC5E2B272AF10D800077F4F4 /* Build configuration list for PBXNativeTarget "Number Trivia YouTube" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				AC31EC4D2AEBE9F500FFF8AF /* Debug */,
-				AC31EC4E2AEBE9F500FFF8AF /* Release */,
+				AC5E2B282AF10D800077F4F4 /* Debug */,
+				AC5E2B292AF10D800077F4F4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = AC31EC362AEBE9F300FFF8AF /* Project object */;
+	rootObject = AC5E2B0B2AF10D7F0077F4F4 /* Project object */;
 }
